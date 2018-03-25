@@ -46,6 +46,10 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vender: [
+      'babel-polyfill',
+      'eventsource-polyfill'
+    ],
     /*
     ** Run ESLint on save
     */
